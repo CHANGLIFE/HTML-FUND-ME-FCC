@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Fund Me App</title>
+    <style>
+        .container {
+          display: grid;
+          justify-items: center;
+          align-items: center;
+          height: 15vh; /* 设置高度为100%，以便看到效果 */
+        }
+       
+        .element {
+          width: 10px;
+          height: 10px;
+          margin-right: 10px;
+        }
+       </style>
+</head>
+
+<body>
+    
+    <script src="./index.js" type="module">
+    </script>
+     
+    <div class="container">
+        Fund Me App!
+        <div >
+            <button id="connectButton" >Connect</button>
+            <button id="balanceButton">getBalance</button>
+        </div>
+        <div >
+            <!-- form -->
+            <!-- for : 描述与label绑定的元素的id-->
+            <label for="fund">ETH Amount</label>
+            <input id="ethAmount" placeholder="0.1"/>
+            <button id="fundButton" >Fund</button>
+            <!-- form -->
+        </div>
+        <div >
+            <button id="withdrawButton">wihtdraw</button>
+        </div>
+    </div>
+    
+</body>
+</html>
